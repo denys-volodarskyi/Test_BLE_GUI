@@ -1,6 +1,8 @@
-This it the simple GUI application to find BLE device on Get Devices button click:
+This it the simple Windows application to find BLE device on Get Devices button click:
 
-![Gui](img/gui.png)
+<p align="center">
+  <img src="img/gui.png" alt="drawing" width="200"/>
+</p>
 
 The problem is I can't build and run it with ``PublushAot`` option on.
 
