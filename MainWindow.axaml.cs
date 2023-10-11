@@ -1,4 +1,4 @@
-//#define BLE
+#define BLE
 
 using System;
 
