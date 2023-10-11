@@ -1,3 +1,7 @@
+This it the simple GUI application to find BLE device on Get Devices button click:
+
+![Gui](img/gui.png)
+
 The problem is I can't build and run it with ``PublushAot`` option on.
 
 ```xml
@@ -11,7 +15,8 @@ Using Avalonia packages and
 <PackageReference Include="InTheHand.BluetoothLE" Version="4.0.34" />
 ```
 
-If I disable Bluetooth functionality it works, commenting ``#define BLE`` in [MainWindow.axaml.cs](http://github.com).
+If I disable Bluetooth functionality it works, commenting ``#define BLE`` in
+[MainWindow.axaml.cs](https://github.com/denys-volodarskyi/Test_BLE_GUI/blob/master/MainWindow.axaml.cs#L1).
 
 Tried it on Windows 11, with DotNet Preview (8.0.100-rc.2.23502.2) installed as
 
